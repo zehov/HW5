@@ -1,0 +1,114 @@
+html, body,header,main,nav, div, ul, li, img, p, a,h2 {
+margin: 0;
+padding: 0;
+}
+#container{	
+width: 99.99%;
+}
+header{
+width: 99.99%;
+height: 200px;
+background-image: url(../img/design3/bg.jpg);
+background-size: cover;
+background-position: bottom;
+}
+nav{
+position: absolute;
+margin: 0 15% 0 15%;
+width: 70%;
+}
+ul{
+margin-top: 147px;
+background-color: #55B1FF;
+text-align: center;
+}
+li{
+display: inline-block;
+padding: 5px;
+margin: 10px;	
+}
+a.buttons{
+text-decoration: none;	
+color: white;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 17px;
+}
+a.buttons:hover{
+color: #ff00ff;	
+}
+
+main{
+width: 90%;
+margin: 5% 5% 0 5%;
+}
+
+div.content{
+display: inline-block;
+align-items: center;
+width: 70%;
+min-width: 400px;
+margin: 50px 15% 0 15%;
+}
+div.post{
+float: left;	
+display: inline-block;
+width: 20%;
+min-width: 100px;
+height: 300px;	
+margin: 0 0 50px 4%;
+word-wrap: break-word;
+}
+h2{
+color: #474747;	
+font-family: 'Fjalla One', sans-serif;
+margin-bottom: 20px;
+}
+img.post{
+width: 99%;	
+box-shadow: 0 0 10px #448DCB;
+}
+p.cols{
+font-size: 14px;	
+font-family: 'Noto Sans', sans-serif;
+}
+div.content2{
+display: inline-block;	
+text-align: center;	
+width: 50%;
+margin: 100px 25% 0 25%;
+}
+div.post2{
+min-width: 70px;	
+}
+p.cols2{
+font-size: 14px;	
+font-family: sans-serif;
+}
+ul.ul2{
+margin:20px 10px 10px 10px;
+width: 100px;
+height: 45px;
+color: white;
+font-size: 17px;	
+}
+li.li2{	
+margin: 10px;
+padding: 0;	
+}
+h3{
+color: #474747;	
+font-family: 'Fjalla One', sans-serif;
+font-size: 18px;
+}
+footer{
+display: inline-block;
+width: 99.99%;
+height: 50px;
+background-color: #55B1FF;
+text-align: center;
+}
+#footText{
+color: white;
+margin: 15px;
+text-shadow: 0 0 2px black;
+}
